@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puppy Helper</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/style.css">
+<link href="https://fonts.googleapis.com/css?family=Forum|Limelight" rel="stylesheet">
+
+
+
+
+</head>
+<body>
+<div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                    
+                        <h1 class="header-title"><img id ="logo" src ="./logo2.jpg">  Puppy Helper</h1>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="nav navbar-nav navbar-right">
+                           <li><a href="/">Home</a></li>
+                            <li><a href="/form">Form</a></li>
+                            <li><a href="/mypet">MyPet</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+<form action="/myPet">
+<br>
+  Puppy Name: <input id ="p-name" name = "petname" type="text" size="30"><br>
+  <br>
+  Puppy Age(in months):  <input  id ="p-age" name = "petage" type="text" size="22"><br><br>
+  URL of pet image:  <input  id ="p-image" name = "petimage" type="text" size="26"><br><br>
+<button class="btn btn-default" type ="submit" id ="add-button" href= "/myPet" >Submit</button>
+</form>
+  
+
+
+</body>
+<script type="text/javascript" src = "./app.js"></script>
+</html>

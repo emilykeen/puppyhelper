@@ -1,0 +1,128 @@
+body {
+    background: url("./background.jpg") top fixed;
+}
+
+#logo {
+    width: 15%;
+    height: 100%;
+}
+
+.jumbotron {
+    background: #FFFFF0;
+    color: brown;
+    font-family: 'Limelight', cursive;
+}
+
+#petInfo {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    height: 40%;
+    width: 25%;
+    background: #FFFFF0;
+    text-align: center;
+    color: brown;
+    border: medium groove brown;
+    font-family: 'Forum', cursive;
+}
+
+#checkboxes {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    height: 40%;
+    width: 25%;
+    background: #FFFFF0;
+    text-align: center;
+    color: brown;
+    border: medium groove brown;
+    font-family: 'Forum', cursive;
+}
+
+#timers {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    height: 40%;
+    width: 25%;
+    background: #FFFFF0;
+    text-align: center;
+    color: brown;
+    border: medium groove brown;
+    font-family: 'Forum', cursive;
+}
+
+#pottytimer {}
+
+#intro {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    height: 40%;
+    width: 30%;
+    background: #FFFFF0;
+    text-align: center;
+    color: brown;
+    border: medium groove brown;
+    font-family: 'Forum', cursive;
+    padding: 1%;
+}
+
+form {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    height: 40%;
+    width: 30%;
+    background: #FFFFF0;
+    color: brown;
+    border: medium groove brown;
+    padding: 3%;
+    font-family: 'Forum', cursive;
+}
+
+a {
+    font-family: 'Forum', cursive;
+    color: brown;
+}
+#vaccines{
+	 position: absolute;
+    top: 100%;
+    left: 5%;
+    height: 60%;
+    width: 90%;
+    background: #FFFFF0;
+    text-align: center;
+    color: brown;
+    border: medium groove brown;
+    font-family: 'Forum', cursive;
+
+
+}
+#vaccine1{
+position: absolute;
+    top:10%;
+    left: 5%;
+    height: 20%;
+    width: 90%;
+
+}
+#vaccine2{
+position: absolute;
+    top: 100%;
+    left: 30%;
+    height: 20%;
+    width: 90%;
+
+}
+#vaccine3{
+position: absolute;
+    top: 100%;
+    left: 55%;
+    height: 20%;
+    width: 90%;
+
+}
+nav{
+	position: absolute;
+}

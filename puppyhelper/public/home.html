@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Puppy Helper</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Forum|Limelight" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="header-title"><img id ="logo" src ="./logo2.jpg">  Puppy Helper</h1>
+                </div>
+                <div class="col-md-4">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/form">Form</a></li>
+                        <li><a href="/mypet">MyPet</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="petInfo">
+        <img>
+        <h3>Puppy Name:</h3>
+        <br>
+        <div id="petName" name="petName"> </div>
+        <h3>Puppy Age (in months):<h3> <br>
+        <div id="petAge" name="petAge"> </div>
+    </div>
+    </div>
+    <div id="checkboxes">
+        <div class="checkbox">
+        <h3> Daily Checkoffs</h3>
+        <label>
+            <input type="checkbox" value="walk">15 min walk</label>
+        <br>
+        <label>
+            <input type="checkbox" value="play">1 hour play time</label>
+        <br>
+        <label>
+            <input type="checkbox" value="brush">Hair Brushing</label>
+        <br>
+    </div>
+    </div>
+    </div>
+    <div id="timers">
+        <h3> Time until Potty Break:</h3>
+        <div id="pottytimer"></div>
+        <div id="feedingtimer"></div>
+    </div>
+    </div>
+    </div>
+
+    <div id="vaccines">
+    <h3>Vaccine Checklist</h3>
+        <h4>6 - 8 weeks</h4>
+        <label>
+            <input type="checkbox" value="">Distemper</label>
+        <label>
+            <input type="checkbox" value="">measles</label>
+        <label>
+            <input type="checkbox" value="">parainfluenza</label>
+        <label>
+            <input type="checkbox" value="">Bordetella (optional)</label>
+        <h4>10 - 12 weeks</h4>
+        <label>
+            <input type="checkbox" value="">DHPP</label>
+        <label>
+            <input type="checkbox" value="">Coronavirus (optional)</label>
+        <label>
+            <input type="checkbox" value="">Leptospirosis(optional)</label>
+        <label>
+            <input type="checkbox" value="">Bordetella (optional)</label>
+        <label>
+            <input type="checkbox" value="">Lyme disease(optional)</label>
+        <h4>12 - 24 weeks</h4>
+        <label>
+            <input type="checkbox" value="">Rabies</label <h4>14 - 16 weeks</h4>
+        <label>
+            <input type="checkbox" value="">DHPP</label>
+        <label>
+            <input type="checkbox" value="">Coronavirus (optional)</label>
+        <label>
+            <input type="checkbox" value="">Leptospirosis(optional)</label>
+        <label>
+            <input type="checkbox" value="">Bordetella (optional)</label>
+        <label>
+            <input type="checkbox" value="">Lyme disease(optional)</label>
+        <h4>12 - 16 months</h4>
+        <label>
+            <input type="checkbox" value="">Rabies</label>
+        <label>
+            <input type="checkbox" value="">DHPP</label>
+        <label>
+            <input type="checkbox" value="">Coronavirus (optional)</label>
+        <label>
+            <input type="checkbox" value="">Leptospirosis(optional)</label>
+        <label>
+            <input type="checkbox" value="">Bordetella (optional)</label>
+        <label>
+            <input type="checkbox" value="">Lyme disease(optional)</label>
+        <h4>Every 1 - 3 years</h4>
+        <label>
+            <input type="checkbox" value="">Rabies</label <label>
+        <input type="checkbox" value="">DHPP</label>
+        <label>
+            <input type="checkbox" value="">Coronavirus (optional)</label>
+        <label>
+            <input type="checkbox" value="brush">Leptospirosis(optional)</label>
+        <label>
+            <input type="checkbox" value="">Bordetella (optional)</label>
+        <label>
+            <input type="checkbox" value="">Lyme disease(optional)</label>
+</body>
+<script type="text/javascript" src="./app.js"></script>
+
+</html>
